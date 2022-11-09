@@ -1,0 +1,108 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Century Gothic", sans-serif;
+
+}
+.first{
+   background-image: linear-gradient(#000000bb, #000000bb), url(a.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 70vh;
+   width: 100%;
+
+}
+.navlist{
+   width: 100%;
+   height: 7vh;
+   position: fixed;
+   padding: 5px 10%;
+   background-color: #110e2bbb;
+}
+.navlist ul{
+   display: flex;
+   list-style: none;
+   font-size: 45px;
+}
+.navlist ul li:first-child{
+   flex: 1;
+   color: #ffffff;
+}
+.navlist ul li h4{
+   font-family: serif;
+   height: 5vh;
+
+}
+.navlist ul a{
+   display: block;
+   margin-left: 20px;
+   font-family: "Century Gothic", sans-serif;
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+   margin-top: 12px;
+   transition: 0.5s;
+}
+.navlist ul a:hover{
+   color: #ff8800;
+}
+
+
+
+.main-box{
+   width: 100%;
+   height: 70vh;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 30vh;
+}
+
+
+.main-box p{
+   font-family: "Century Gothic", sans-serif;
+   font-size: 14px;
+   letter-spacing: 1.4px;
+   margin-bottom: 40px;
+}
+.main-box button{
+   padding: 10px;
+   border: none;
+   outline: none;
+   background: none;
+   border: 1px solid #ff8800;
+   color: #ffffff;
+}
+.main-box button:hover{
+   background: #ff8800;
+}
+
+.main-box h1:hover{
+   color: #ff8800;
+   text-decoration: none;
+   transition: 0.2s;
+
+}
+.second{
+   background-color:#171717;
+   height: 130vh;
+   width: 100%;
+
+}
+.modi h3,p{
+   color: white;
+}
+.modi2 h2,li{
+   color: white;
+   list-style: none;
+}
+.modi3 h1,li{
+   color: white;
+   list-style: none;
+}
+.footer{
+   margin-left: 40%;
+
+}
+
